@@ -1,2 +1,2 @@
 # rosetta-ns
-An implementation of evolutionary novelty search to find low scoring protein conformations under the Rosetta energy function.
+An implementation of a novelty search/monte carlo hybrid to find low scoring protein conformations under the Rosetta energy function. The monte carlo search is encouraged to find novel energies rather than explicitly low energies. A minimal criterion is included which restricts the search to below a certain energy, and can be set to a bit above the energy of the starting conformation.
